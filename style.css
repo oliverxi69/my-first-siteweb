@@ -1,0 +1,11 @@
+/* Minimal styles for quick editing */
+html,body{height:100%}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:2rem;background:#f3f4f6;direction:rtl}
+main{max-width:860px;margin:0 auto;background:#ffffff;padding:1.25rem;border-radius:10px;box-shadow:0 6px 18px rgba(2,6,23,0.08)}
+h1{color:#1e40af;margin-top:0}
+button{padding:8px 12px;border-radius:6px;background:#1e40af;color:#fff;border:none;cursor:pointer}
+
+/* dark theme */
+body.dark{background:#0b1220;color:#cbd5e1}
+body.dark main{background:#071020}
+body.dark button{background:#4a5568}
